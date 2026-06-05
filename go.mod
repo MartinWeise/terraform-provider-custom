@@ -3,7 +3,6 @@ module terraform-provider-custom
 go 1.25.0
 
 require (
-	github.com/SAP/go-hdb v1.15.2
 	github.com/go-jose/go-jose/v4 v4.1.1
 	github.com/hashicorp/go-retryablehttp v0.7.8
 	github.com/hashicorp/terraform-plugin-framework v1.17.0
