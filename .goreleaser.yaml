@@ -19,6 +19,11 @@ builds:
   - env:
       - CGO_ENABLED=0
     mod_timestamp: "{{ .CommitTimestamp }}"
+    goos:
+      - linux
+      - windows
+    goarch:
+      - amd64
     flags:
       - -trimpath
     binary: "custom_v{{ .Version }}"
