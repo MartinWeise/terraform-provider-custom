@@ -3,4 +3,4 @@ all: build
 
 .PHONY: build
 build:
-	goreleaser --clean
+	goreleaser release --clean
