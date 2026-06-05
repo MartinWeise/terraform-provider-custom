@@ -4,4 +4,4 @@ all: build
 
 .PHONY: build
 build:
-	goreleaser --skip publish --clean
+	goreleaser --clean
