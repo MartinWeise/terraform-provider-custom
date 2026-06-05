@@ -26,14 +26,14 @@ builds:
       - amd64
     flags:
       - -trimpath
-    binary: "custom_v{{ .Version }}"
+    binary: "terraform-provider-custom_v{{ .Version }}"
 
 archives:
   - formats: ["zip"]
-    name_template: "custom_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
+    name_template: ""terraform-provider-custom_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
 
 checksum:
-  name_template: "custom_{{ .Version }}_SHA256SUMS"
+  name_template: "terraform-provider-custom_{{ .Version }}_SHA256SUMS"
   algorithm: sha256
 
 signs:
