@@ -33,13 +33,13 @@ func (p *clientProvider) Schema(_ context.Context, _ provider.SchemaRequest, res
 
 ### Features
 
-* Manage Credential Store Passwords
-* Manage SAML 2.0 Destination Trust Certificates
-* Manage Business Partner Onboarding
+* SAP BTP
+    * Manage Credential Store Passwords
+    * Read SAML 2.0 Destination Trust Certificates
+* Platform
+    * Manage Business Partners
 
-You can simplify and streamline the deployment and maintenance of BTP services and applications.
-
-> Powered by [Sequello](https://www.sequello.com/), \#pfeift.`,
+> \#pfeift.`,
 		Attributes: map[string]schema.Attribute{
 			"credstore_binding_parameters": schema.StringAttribute{
 				MarkdownDescription: "The credential binding parameters of the Credential Store API. This can also be sourced from the `CREDSTORE_BINDING_PARAMETERS` environment variable.",
