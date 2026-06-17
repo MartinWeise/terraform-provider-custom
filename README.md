@@ -1,4 +1,4 @@
-# SAP BTP Custom Provider
+[![Release](https://github.com/MartinWeise/terraform-provider-custom/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/MartinWeise/terraform-provider-custom/actions/workflows/release.yml)
 
 tl;dr: custom provider to automate SAP BTP with Terraform
 
