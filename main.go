@@ -1,3 +1,6 @@
+//go:generate go install github.com/hashicorp/terraform-plugin-docs/cmd/tfplugindocs@latest
+//go:generate tfplugindocs generate --rendered-provider-name "SAP BTP Custom"
+
 package main
 
 import (
@@ -16,7 +19,7 @@ func main() {
 	flag.Parse()
 
 	err := providerserver.Serve(context.Background(), provider.New, providerserver.ServeOpts{
-		Address:         "terraform.local/sequello/custom",
+		Address:         "registry.terraform.io/martinweise/custom",
 		Debug:           debug,
 		ProtocolVersion: 6,
 	})

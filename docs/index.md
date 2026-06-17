@@ -4,7 +4,7 @@ page_title: "SAP BTP Custom Provider"
 description: |-
   The custom Terraform provider for SAP BTP enables you to automate the provisioning, management and configuration of resources on SAP Business Technology Platform https://account.hana.ondemand.com/.
   Features
-  Manage Credential Store PasswordsExtract Cloud Foundry Credential Bindings
+  Manage Credential Store PasswordsManage SAML 2.0 Destination Trust CertificatesManage Business Partner Onboarding
   You can simplify and streamline the deployment and maintenance of BTP services and applications.
   Powered by [Sequello](https://www.sequello.com/), \#pfeift.
 ---
@@ -16,7 +16,8 @@ The custom Terraform provider for SAP BTP enables you to automate the provisioni
 ### Features
 
 * Manage Credential Store Passwords
-* Extract Cloud Foundry Credential Bindings
+* Manage SAML 2.0 Destination Trust Certificates
+* Manage Business Partner Onboarding
 
 You can simplify and streamline the deployment and maintenance of BTP services and applications.
 
@@ -30,4 +31,7 @@ You can simplify and streamline the deployment and maintenance of BTP services a
 ### Optional
 
 - `credstore_binding_parameters` (String, Sensitive) The credential binding parameters of the Credential Store API. This can also be sourced from the `CREDSTORE_BINDING_PARAMETERS` environment variable.
+- `csln_domain` (String, Sensitive) The domain of the CSLN applications. This can also be sourced from the `CSLN_DOMAIN` environment variable.
+- `cslncore_binding_parameters` (String, Sensitive) The credential binding parameters of the CSLN Core Application. This can also be sourced from the `CSLNCORE_BINDING_PARAMETERS` environment variable.
+- `cslnparticipants_binding_parameters` (String, Sensitive) The credential binding parameters of the CSLN Participants Application. This can also be sourced from the `CSLNPARTICIPANTS_BINDING_PARAMETERS` environment variable.
 - `destination_binding_parameters` (String, Sensitive) The credential binding parameters of the Destination Service API. This can also be sourced from the `DESTINATION_BINDING_PARAMETERS` environment variable.

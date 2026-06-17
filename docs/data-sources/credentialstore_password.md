@@ -3,7 +3,7 @@
 page_title: "custom_credentialstore_password Data Source - SAP BTP Custom"
 subcategory: ""
 description: |-
-  Create or update password credential with the specified name in the specified namespace.
+  Read a password credential with the specified name in the specified namespace.
   The authentication to the REST API is implemented via basic credentials, and the payload encryption is mandatory enabled.
   Further documentation:
   https://help.sap.com/docs/credential-store/sap-credential-store/sap-credential-store
@@ -11,7 +11,7 @@ description: |-
 
 # custom_credentialstore_password (Data Source)
 
-Create or update password credential with the specified name in the specified namespace.
+Read a password credential with the specified name in the specified namespace.
 
 The authentication to the REST API is implemented via basic credentials, and the payload encryption is mandatory enabled.
 
