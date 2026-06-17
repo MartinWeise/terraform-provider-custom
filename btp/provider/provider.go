@@ -33,11 +33,9 @@ func (p *clientProvider) Schema(_ context.Context, _ provider.SchemaRequest, res
 
 ### Features
 
-* SAP BTP
-    * Manage Credential Store Passwords
-    * Read SAML 2.0 Destination Trust Certificates
-* Platform
-    * Manage Business Partners
+* Manage Credential Store Passwords
+* Manage Business Partners
+* Read SAML 2.0 Destination Trust Certificates
 
 > \#pfeift.`,
 		Attributes: map[string]schema.Attribute{

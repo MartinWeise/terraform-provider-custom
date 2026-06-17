@@ -1,12 +1,12 @@
-[![Release](https://github.com/MartinWeise/terraform-provider-custom/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/MartinWeise/terraform-provider-custom/actions/workflows/release.yml)
+[![Release](https://github.com/MartinWeise/terraform-provider-custom/actions/workflows/release.yml/badge.svg)](https://github.com/MartinWeise/terraform-provider-custom/actions/workflows/release.yml)
 
 tl;dr: custom provider to automate SAP BTP with Terraform
 
 ## Features
 
 * Manage Credential Store Passwords
-* Manage SaaS Applications (MTA)
-* Extract Cloud Foundry Credential Bindings
+* Manage Business Partners
+* Read SAML 2.0 Destination Trust Certificates
 
 ## Further Documentation
 
